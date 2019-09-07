@@ -1,0 +1,3 @@
+@Valid -- if we add this, then it make sure we get some better error messages when we pass the bad data in request and it gives 400 error instead of 500
+
+@BindingResult -- it basically invokes the validator framework on an object being passed in the request

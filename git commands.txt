@@ -5,4 +5,8 @@ git branch -- list the branches
 git branch branch2 -- create branch called branch2
 git checkout branch2 -- switch the branch to branch2
 git add . -- it will add all the files present in current (.) directory
-git commit -m "first commit" -- committing files with message "first commit"
+git commit -m "first commit" -- committing files with message "first commit"  -- it will only commit to local and will not be available on origin (i.e. github.com)
+type git push -- it will give you command to push this new branch to origin
+
+git push --set-upstream origin branch2 -- now branch2 will be pushed to origin
+
