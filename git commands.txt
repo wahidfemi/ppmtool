@@ -1,0 +1,8 @@
+Create branch and commit the code :
+====================================
+
+git branch -- list the branches
+git branch branch2 -- create branch called branch2
+git checkout branch2 -- switch the branch to branch2
+git add . -- it will add all the files present in current (.) directory
+git commit -m "first commit" -- committing files with message "first commit"
