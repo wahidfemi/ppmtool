@@ -8,7 +8,7 @@ import com.nseit.ppmtool.domain.Project;
 @Repository
 public interface ProjectRepository extends CrudRepository<Project, Long>{
 	
-	Iterable<Project> findAllById(Iterable<Long> iterable);
+    Iterable<Project> findAll();
 	
 	Project findByProjectIdentifier(String projectId);
 }
