@@ -19,3 +19,24 @@ Class based component
 Functional based component
 
 class based component has life cycle hooks and state which functional based component don't have and those are stateless.
+
+
+Controlled component
+======================
+
+
+React-Redux architechture
+===========================
+
+redux-thunk - to dispatch reducer action to redux store
+react-redux - to hookup redux with react
+
+We need to configure redux store to use this along with react application
+
+Go to Redux tool bar and click on instructions and copy below from this url
+https://github.com/zalmoxisus/redux-devtools-extension#usage
+
++  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+
+
+
