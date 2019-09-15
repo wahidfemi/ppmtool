@@ -9,6 +9,7 @@ npm install -g create-react-app  ---> using -g, we can install the module global
 i.e. it will be added in the node_modules folder of base/installation node js folder
 npm install boostrap
 npm install react-router-dom
+npm install classnames i.e. npm i classnames
 
 if we want specifi version of module to be installed then
 
